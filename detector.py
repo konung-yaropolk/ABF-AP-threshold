@@ -214,7 +214,7 @@ if not os.path.exists(res_path):
 reg_list = ABFpars(data_path)
 # num = 0
 # reg = reg_list[num]
-demo = False
+demo = True
 save_csv = True
 
 # df init
