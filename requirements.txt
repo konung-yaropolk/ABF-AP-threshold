@@ -1,6 +1,6 @@
 numpy
 pyyaml
-pandas
+pandas==1.3.3
 scipy
 matplotlib
 pyabf
