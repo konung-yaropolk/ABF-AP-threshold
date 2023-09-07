@@ -275,7 +275,7 @@ for reg in reg_list:
         ap_pow = int(integrate.cumtrapz(der_array[i], voltage_array[i], initial=0)[-1])
         ap_pow_list.append(ap_pow)
 
-        df = df.append(pd.Series([reg.fileName,  # file name
+        df = df._append(pd.Series([reg.fileName,  # file name
                                   reg.appTime,   # application time
                                   v_max,         # AP max amplitude
                                   t_max,         # AP maw time
