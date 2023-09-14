@@ -1,25 +1,22 @@
 #!/usr/bin/env python3
 """ Copyright © 2021 Borys Olifirov
 AP detector test functions.
-
 """
 
 import sys
 import os
 import logging
-
 import yaml
+import pyabf
 
 import numpy as np
 import pandas as pd
-import scipy
+import matplotlib.pyplot as plt
+
 from scipy import signal
 from scipy import integrate
 
-import matplotlib
-import matplotlib.pyplot as plt
 
-import pyabf
 
 
 def ABFpars(path):

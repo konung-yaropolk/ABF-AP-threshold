@@ -1,0 +1,2 @@
+python detector.py
+pause
