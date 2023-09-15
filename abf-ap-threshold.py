@@ -148,3 +148,7 @@ else:
     plt.savefig(f'{res_path}/{reg.fileName}_ctrl_img.png')
     plt.close('all')
     logging.info('Ctrl img saved\n')
+
+
+if __name__ == '__main__':
+    main()
