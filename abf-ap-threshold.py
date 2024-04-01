@@ -145,7 +145,7 @@ plt.tight_layout()
 if demo:
     plt.show()
 else:
-    plt.savefig(f'{res_path}/{reg.fileName}_ctrl_img.png')
+    plt.savefig(f'{res_path}/{reg.fileName}_ctrl_img.png', transparent=True)
     plt.close('all')
     logging.info('Ctrl img saved\n')
 

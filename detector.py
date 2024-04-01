@@ -356,7 +356,7 @@ def run(res_path, reg_list, save_plot, save_csv, df):
             plt.tight_layout()
 
             if save_plot:
-                plt.savefig(f'{res_path}/{reg.fileName}_ctrl_img.png')
+                plt.savefig(f'{res_path}/{reg.fileName}_ctrl_img.png', transparent=True)
                 plt.close('all')
                 logging.info('Ctrl img saved\n')                
 
